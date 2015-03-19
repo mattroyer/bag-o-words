@@ -15,3 +15,11 @@ my_bag.bag.each do |b|
   p b
 end
 ```
+
+This gives you the following output:
+
+```
+{"John"=>1, "likes"=>2, "to"=>3, "watch"=>4, "movies"=>5, "Mary"=>6, "too"=>7, "also"=>8, "football"=>9, "games"=>10}
+[1, 2, 1, 1, 2, 1, 1, 0, 0, 0]
+[1, 1, 1, 1, 0, 0, 0, 1, 1, 1]
+```
